@@ -1,0 +1,18 @@
+.quoteBox_btn {
+    display: block;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.quoteBox_phrase {
+    color: black;
+    background: #FFFFFF;
+    box-shadow: 12px 12px 1px rgba(0, 0, 0, 0.13);
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    /* background-image: url(/public/images/rectangle.png); */
+}
+

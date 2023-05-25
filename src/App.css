@@ -1,0 +1,40 @@
+.app {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+}
+
+.app.bg1 {
+  background-image: url(/public/images/fortuna1.jpg);
+}
+
+.app.bg2 {
+  background-image: url(/public/images/fortuna2.jpg);
+}
+
+.app.bg3 {
+  background-image: url(/public/images/fortuna3.jpg);
+}
+
+.app.bg4 {
+  background-image: url(/public/images/fortuna4.jpg);
+}
+
+.app_container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  width: min(100%, 300px);
+  padding: 0 10px;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
